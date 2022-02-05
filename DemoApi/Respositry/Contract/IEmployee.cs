@@ -16,5 +16,7 @@ namespace DemoApi.Respositry.Contract
 
         // declearing abstract method for getting employee by Id;
         Employee GetEmployeeById(int id);
+        Employee DeleteEmployee(int id);
+        Employee UpdateEmployee(Employee emp);
     }
 }
